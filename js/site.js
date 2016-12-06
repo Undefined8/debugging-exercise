@@ -1,4 +1,4 @@
-$(function () {
+$(document).ready(function () {
 
     console.log('js is working!');
 
@@ -11,7 +11,8 @@ $(function () {
 
       if (hour < 12) {
         isEvening = false;
-      } else {
+      } else{
+        isEvening = true;
         hour = hour - 12;
       }
 
@@ -29,7 +30,7 @@ $(function () {
 
     function showTime () {
       var currentTime = calculateTime();
-      $('.box').html('<h1>' + currentTime + '</h1>');
+      $('.box1').html('<h1>' + currentTime + '</h1>');
     }
 
     $('button').on('click', showTime);

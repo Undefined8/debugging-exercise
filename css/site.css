@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #888;
   line-height: 1.5;
 }
@@ -15,7 +15,7 @@ header {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50;
+  margin-bottom: 50px;
 }
 
 .time-check-container {
@@ -23,7 +23,7 @@ header {
   margin-bottom: 80px;
 }
 
-.button {
+button {
   text-align: center;
   margin: 0 auto;
   border-radius: 0;
@@ -37,7 +37,7 @@ header {
   font-weight: 300;
 }
 button:hover {
-  opacity: .7
+  opacity: .7;
 }
 
 
